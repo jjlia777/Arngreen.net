@@ -6,6 +6,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 /* Estilo do corpo */
 body {
     background-color: #f4f4f4;
@@ -182,7 +184,7 @@ nav {
 }
 
 .caixaLancamento {
-    width: 20%; /* Ajustar a largura para caber 4 produtos em uma linha */
+    width: 20%;
     padding: 20px;
     text-align: center;
     border: 1px solid #ddd;
@@ -246,7 +248,7 @@ button:hover {
 /* Formulário de Revenda */
 .formRevenda {
     background-color: #ffffff;
-    max-width: 800px;
+    max-width: 1100px;
     margin: 40px auto;
     padding: 60px;
     border-radius: 10px;
@@ -296,6 +298,13 @@ button:hover {
 }
 
 /* Estilo das caixas de informação */
+
+.infoAtendimento,
+.infoInstitucional,
+.infoAjuda,
+.infoPedidos{
+    padding: 0px 55px;
+}
 .infoBoxes {
     display: flex;
     justify-content: space-between;
@@ -312,7 +321,8 @@ button:hover {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: calc(25% - 20px);
+    width: 500px;
+    height: 170px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -386,12 +396,14 @@ button:hover {
 
 /* Seções ajustadas */
 .categorias,
-.lancamentos,
 .formRevenda,
 .infoBoxes {
     padding: 60px;
 }
 
+.lancamentos {
+    padding: 50px 200px 50px 200px;
+}
 
 
 /* Footer */
@@ -399,7 +411,7 @@ footer {
     background-color: #006735;
     color: #fff;
     text-align: center;
-    padding: 60px 0;
+    padding: 10px 0;
     margin-top: 40px;
 }
 
