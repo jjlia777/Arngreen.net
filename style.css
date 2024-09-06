@@ -150,6 +150,17 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: calc(25% - 20px); /* Tamanho proporcional com espaçamento igual */
     margin: 0px;
+    
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.caixaCategoria:hover {
+    background-color: #00673546; /* Cor de fundo ao passar o mouse */
+    color: #006735; /* Cor do texto ao passar o mouse */
+    border-color: #006735; /* Cor da borda ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento no hover */
 }
 
 .caixaCategoria i {
@@ -171,8 +182,8 @@ nav {
 }
 
 .caixaLancamento {
-    width: 23%; /* Ajustar a largura para caber 4 produtos em uma linha */
-    padding: 10px;
+    width: 20%; /* Ajustar a largura para caber 4 produtos em uma linha */
+    padding: 20px;
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -183,6 +194,20 @@ nav {
 .caixaLancamento img {
     width: 100%;
     height: auto;
+}
+
+.carroImg {
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
+
+.droneImg {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.toyImg {
+    margin-bottom: 40px;
 }
 
 .estrelas i {
